@@ -51,4 +51,4 @@ Next time you run `gradlew eclipse` or `gradlew idea`, the BlackBox Jar will be 
 Next time you run `gradlew deploy`, BlackBox will be loaded onto your RoboRIO. 
 
 If you wish to install BlackBox onto a USB Stick instead, remove the line in the above example starting with `toastModule` and instead download
-the BlackBox jar from the [Releases Page](releases) and copy it to the `toast/modules` directory on your USB device.
+the BlackBox jar from the [Releases Page](https://github.com/Open-RIO/BlackBox/releases) and copy it to the `toast/modules` directory on your USB device.
