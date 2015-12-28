@@ -31,7 +31,7 @@ repositories {
 
 archivesBaseName = "BlackBox"
 version = "0.0.1"
-group = "jaci.openrio.modules.BlackBox"
+group = "jaci.openrio.modules"
 
 gradlerio.team = "9999"                                 //Your FRC team number (e.g. 5333 for team 'Can't C#', or 47 for Chief Delphi)
 //gradlerio.rioIP = "10.53.33.20"                         //Uncomment to specify the IP address of the RIO

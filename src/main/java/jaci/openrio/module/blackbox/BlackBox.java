@@ -1,9 +1,6 @@
 package jaci.openrio.module.blackbox;
 
-import jaci.openrio.toast.lib.log.Logger;
 import jaci.openrio.toast.lib.module.ToastModule;
-
-import java.util.Random;
 
 public class BlackBox extends ToastModule {
 
