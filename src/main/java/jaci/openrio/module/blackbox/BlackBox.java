@@ -11,7 +11,7 @@ public class BlackBox extends ToastModule {
 
     @Override
     public String getModuleVersion() {
-        return "0.0.1";
+        return "0.1.0";
     }
 
     @Override

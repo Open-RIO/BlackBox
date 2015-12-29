@@ -68,13 +68,13 @@ public class BlackBoxContext {
             start_time = System.currentTimeMillis();
             try {
                 file_out = new FileOutputStream(target_file);
-                file_out.write(String.join(", ", value_suppliers.keySet()).getBytes());
+                file_out.write(String.join(",", value_suppliers.keySet()).getBytes());
                 file_out.write('\n');
             } catch (IOException e) { }
         }
 
         try {
-            file_out.write(String.join(", ", value_suppliers.values().stream()
+            file_out.write(String.join(",", value_suppliers.values().stream()
                 .map(num -> num.get().toString())
                 .collect(Collectors.toList())
             ).getBytes());

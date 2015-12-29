@@ -30,7 +30,7 @@ repositories {
 }
 
 archivesBaseName = "BlackBox"
-version = "0.0.1"
+version = "0.1.0"
 group = "jaci.openrio.modules"
 
 gradlerio.team = "9999"                                 //Your FRC team number (e.g. 5333 for team 'Can't C#', or 47 for Chief Delphi)
