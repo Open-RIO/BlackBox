@@ -62,6 +62,7 @@ uploadArchives {
 			  packaging 'jar'
 			  description 'BlackBox Sensor Recording'
 		  }
+		pom*.whenConfigured { pom -> pom.dependencies.clear() }
       }
     }
 }
